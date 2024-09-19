@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  height: auto;
+  cursor: pointer;
+  padding: 10px;
+}
+button:hover {
+  background-color: rgba(0, 81, 255, 0.89);
+}
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+}
+.box {
+  background-color: #f4f4f4;
+  border: 1px solid #050505;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.box h3 {
+  padding: 10px 20px;
+}
+.box:first-child {
+  width: 30%;
+}
+
+.box:nth-child(2) {
+  width: 70%;
+  height: 80px;
+}
+
+.add_emp_model {
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: 999;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 90%;
+}
